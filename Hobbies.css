@@ -1,0 +1,204 @@
+body{
+    background: linear-gradient(#09151f, #081b29, #033349, #015d83, #0099d7);
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.top{
+    position: relative;
+    top: 58px;
+}
+.main{
+    position: relative;
+    width: 1600px;
+    height: 800px;
+    border: 2px solid;
+    top: -120px;
+    left: 150px;
+    border-radius: 20px;
+    background-color: #081b29;
+    padding: 20px;
+}
+.top p{
+    color: White;
+}
+.kolens{
+    position: relative;
+    top: -158px;
+    left: 250px;
+
+    font-size: 25px;
+    width: 50px;
+}
+.about{
+    font-size: 20px;
+    position: relative;
+    left: 1127px;
+    top: -27px;
+}
+.hobbies{
+    font-size: 20px;
+    position: relative;
+    left: 1327px;
+    top: -71px;
+}
+.interest{
+    font-size: 20px;
+    position: relative;
+    left: 1550px;
+    top: -113px;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    color: white;
+    position: relative;
+    display: flex;
+    width: 1565px;
+    height: 273px;
+    left: 15px;
+    top: -350px;
+}
+#build{
+    height: 270px;
+}
+#build:hover{
+    transform: scale(1.3);
+}
+#badminton{
+    height: 270px;
+}
+#badminton:hover{
+    transform: scale(1.3);
+}
+#gaming{
+    height: 270px;
+}
+#gaming:hover{
+    transform: scale(1.3);
+}
+#anime{
+    height: 270px;
+    position: relative;
+}
+#anime:hover{
+    transform: scale(1.3);
+}
+.box2{
+    border: 2px solid;
+    color: white;
+}
+.box3{
+    border: 2px solid;
+    color: white;
+}
+.box4{
+    border: 2px solid;
+    color: white;
+}
+.box5{
+    border: 2px solid;
+    color: white;
+    z-index: 1;
+}
+.circle img{
+    position: relative;
+    left: 740px;
+    top: -300px;
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+}
+.circle:hover img{
+    transform: scale(1.3);
+    opacity: 0;
+}
+.circle:hover video{
+    transform: scale(1.3);
+}
+.wordbox{
+    color: white;
+    position: relative;
+    top: 230px;
+}
+.wordbox p{
+    font-size: 100px;
+    font-family: "Zeyada", cursive;
+    position: relative;
+    top: -180px;
+    left: 180px;
+}
+.wordbox2{
+    color: white;
+    position: relative;
+    top: -150px;
+    left: 50px;
+}
+.wordbox2 p{
+    color: white;
+    position: relative;
+    top: -250px;
+    left: 150px;
+    font-size: 30px;
+}
+.circle video{
+    position: relative;
+    left: 1095px;
+    top: -300px;
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+    object-fit: fill;
+}
+.assemble {
+    width: 270px;
+    height: 270px;
+    position: relative;
+   
+}
+.play{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    
+}
+.albion{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.cool{
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+#assemble{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    left: 500px;
+}
+#play{
+    width: 270px;
+    height: 270px;
+}
+#albion{
+    width: 270px;
+    height: 270px;
+}
+#cool{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    left: 80px;
+    
+}
+.box5:hover video{
+    transform: scale(1.3);
+}
+footer i{
+    cursor: pointer;
+}

@@ -1,0 +1,124 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 90vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    font-size: 25px;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: black;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    height: 80%;
+    display: flex;
+}
+section {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+h2 {
+    color: #264653;
+    text-align: center;
+    width: 100%;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #264653;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.hidden{
+    display: none;
+}
+.active{
+    display: flex;
+}
+#intro{
+    background-image: url("/pictures/tabby-cat-lying-on-white-600nw-2241543027-removebg-preview.jpeg");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#breeds img{
+    float: bottom;       
+    margin-right: 2%;    
+    width: 20%;           
+    height: 20%;  
+    
+}
+#breeds ul{
+    font-size: 20px;
+}
+.breedsimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.breedsimg img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain; 
+}
+#care{
+    background-image: url("/pictures/healthycat-removebg-preview.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 55%;
+
+}
+#fun-facts{
+    background-image: url("/pictures/sleep-removebg-preview.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+footer{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    font-size: 30px;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}

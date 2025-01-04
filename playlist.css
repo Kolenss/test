@@ -1,0 +1,495 @@
+body{
+    background-color: black;
+
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    height:  95vh;
+    width: 100%;
+    gap: 2px;
+}
+
+
+/*FIRST BOX*/
+.playlist{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height:  100%;
+    width: 20%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+}
+.playlisttext{
+    display: flex;
+    flex-direction: column;
+    height:  10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 25px;
+}
+.library{
+    height: 40%;
+    width: 20%;
+    color: white;
+}
+.music{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    text-align: start;
+}
+.library img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.music p{
+    font-family: Verdana;
+    font-size: 25px;
+}
+.music img{
+    cursor: pointer;
+}
+.playlistsongs{
+    display: flex;
+    flex-direction: column;
+    height:  90%;
+    width: 100%;
+    align-items: center;
+    gap: 1%;
+    
+}
+.songalbum{
+    display: flex;
+    flex-direction: row;
+    height: 9%;
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    gap: 5px;
+}
+.songalbum h3{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: start;
+    justify-content: center;
+}
+.songalbum p{
+    font-family: Arial;
+    font-size:  15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    text-align: start;
+    justify-content: center;
+    
+}
+.albumpic{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    width: 25%;
+    height: 100%;
+}
+.albumpic img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.albumtext{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+
+
+/*BOX 2*/
+
+.songs{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height:  100%;
+    width: 60%;
+    border-radius: 15px;
+    color: white;
+    background-color: #121212;
+
+}
+.title{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: linear-gradient(#9e544e, #a85953, #9e544e, #9e534d, #6d3a35, #683733);
+    display: flex;
+    flex-direction: row;
+    height:  30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5%;
+}
+.artist-container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 2%;
+}
+.artist{
+    display: flex;
+    height: 90%;
+    width: 23%;
+    overflow: hidden;
+}
+.artist img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 65%;
+    text-align: start;
+}
+.name h1{
+    font-size: 6em;
+    font-family: Helvetica;
+    color: white; 
+    margin-bottom: 0%;                                                                                                                                                                                   
+}
+.name p{
+    font-family: Helvetica;
+    margin-top: 0%;
+}
+.tracks{
+    display: flex;
+    flex-direction: column;
+    height:  70%;
+    width: 100%;
+    background-image: linear-gradient(#4e2926, #422522, #3a211f, #2f1e1c, #231818, #171414, #121212, #121212, #121212, #121212);
+}
+
+.tracktop{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+
+}
+.tracktopbtn{
+    width: 4%;
+    height: 70%;
+    margin-left: 20px;
+    
+}
+.tracktopbtn img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.tracktopbtn:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.tracktopshuffle{
+    width: 6%;
+    height: 70%;
+}
+.tracktopextra{
+    width: 6%;
+    height: 70%;
+}
+.trackbottom{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.songtrack{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.songtrackimg{
+    height: 100%;
+    width: 28%;
+
+}
+.songtrackimg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.tracknumber{
+    width: 3%;
+    height: 40%;
+    text-align: center; 
+    font-family: Verdana;
+    justify-content: center;
+}
+.trackbottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.songbox{
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+.repeat{
+    width: 20%;
+    height: 80%;
+}
+.numbers{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Verdana;
+}
+.minutes{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Verdana;
+}
+.album1{
+    width: 100%;
+    height: 100%;
+}
+.artist-container.active{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: Verdana;
+}
+
+.album-content{
+    display: flex;
+}
+.album-content.active{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: Verdana;
+}
+.hidden{
+    display: none;
+}
+.time{
+    width: 20%;
+    height: 80%;
+}
+
+
+
+
+
+.audio-container{
+    display: flex;
+    flex-direction: column;
+    height:  15%;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+}
+.control-container{
+    display: flex;
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+.progress-container{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.duration{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+}
+.song-duration{
+    display: flex;
+    width: 90%;
+    height: 5px;
+    appearance: none;
+    background-color: #484848;
+}
+.fa-solid{
+    font-size: 30px;
+    color: #666;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    filter: brightness(40%);
+}
+.fa-circle-play{
+    font-size: 40px;
+}
+.fa-shuffle{
+    font-size: 20px;
+}
+.fa-repeat{
+    font-size: 20px;
+}
+.button_background {
+    color: green; 
+}
+  
+
+
+.volume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.volume-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 5px;
+    appearance: none;
+    background-color: #484848;
+}
+.fa-volume-high{
+    font-size: 10px;
+}
+
+.playbtn audio{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+    background-color: #181818;
+}
+
+
+
+
+
+
+
+.picture{
+    width: 20%;
+    height: 100%;
+    color: white;
+    background-color: #121212;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+    height:  40%;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+.album img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border: 2px solid white;
+
+}
+.album p{
+    font-size: 15px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lyrics{
+    display: flex;
+    flex-direction: column;
+    height:  60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lyrics p{
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.lyrics marquee{
+    background-color: #1f1f1f;
+    width: 95%;
+    height: 80%;
+    border: 2px solid white;
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.lyrics pre{
+    position: relative;
+    top: -20%;
+
+}
+
+
+.tobehid{
+    font-size: 30px;
+    justify-content: space-between;
+    font-family: helvetica;
+}
+.hidden{
+    display: none;
+}

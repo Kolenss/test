@@ -1,0 +1,277 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f0f1f4;
+    box-shadow: -4px 6px 21px -10px rgba(0,0,0,0.35);
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    text-align: start;
+    font-size: 12px;
+    gap: 3px;
+}
+.text{
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.loginBtn{
+    background-image: linear-gradient(#f7595b, #f65862, #f65869, #f65869, #f45680);
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 40px;
+    color: #fef5fa;
+    cursor: pointer;
+    border: 2px white;
+    transition: all 0.25s;
+}
+.signbutton{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    
+}
+.input{
+    padding: 8px;
+    font-size: 15px;
+    height: 10%;
+    border-radius: 100px;
+}
+.remember{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.welcome{
+    color: #fef5fa;
+    background-image: linear-gradient(#f7595b, #f65862, #f65869, #f65869, #f45680);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.signupcon{
+    width: 100%;
+    height: 10%;
+}
+.signupbtn{
+    background-image: linear-gradient(#f7595b, #f65862, #f65869, #f65869, #f45680);
+    border-color: #fef5fa;
+    color: #fef5fa;
+    font-size: 15px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.remember{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    gap: 50px;
+}
+.downBtn{
+    cursor: pointer;
+    background-color: white;
+    border: white;
+    font-size: 15px;
+}
+.checkbox{
+    cursor: pointer;
+}
+.loginBtn:hover{
+    background-image: linear-gradient(white, #fef5fa);
+    color: black;
+}
+.signupbtn:hover{
+    background-image: linear-gradient(white, #fef5fa);
+    color: black;
+}
+.contact{
+    position: relative;
+    top: 20%;
+}
+.contact p{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-container{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    top: -73vh;
+    left: 47vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#f7595b, #f65862, #f65869, #f65869, #f45680);
+    color: white;
+    border: 2px solid black;
+    display: none;
+}
+
+hr{
+    width: 90%;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.lower {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-brands, .fa-solid{
+    font-size: 30px;
+}
+.personal-info{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.facebook-info, .contact-info, .gmail-info{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 20%;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.right{
+    width: 60%;
+    height: 100%;
+}
+
+.lower-input{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.lower-input label{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    height: 50%;
+
+}
+.lower-input input{
+    width: 90%; 
+}
+
+
+.concern-input{
+    flex-direction: row;
+    display: flex;
+    width: 90%;
+    height: 50%;
+    justify-content: center;
+    
+}
+.concern-input label{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: end;
+    gap: 15px;
+}
+.concern-input textarea{
+    width: 100%;
+    height: 100%;
+}
+.feedback-submit{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-content: center;
+}
+.submit-btn{
+    height:  90%;
+    width: 15%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+.active{
+    display: block;
+}

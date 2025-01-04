@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(#09151f, #081b29, #033349, #015d83, #0099d7);
+    position: relative;
+    top: 250px;
+    left: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#name{
+    font-size: 50px;
+    color: white;
+}
+#section{
+    color:#00a8f3;
+    font-size: 25px;
+}
+.box{
+    width:  700px;
+    height: 250px;
+    color: white;
+}
+#box2{
+    width: 1600px;
+    height: 800px;
+    background-color: #081b29;
+    border-radius: 20px; 
+    border: 2px solid;
+    position: absolute;
+    top: -183px;
+    left: -150px;
+    z-index: -1;
+}
+.rounded-button{
+    padding: 20px 40px;
+    position: relative;
+    top: -600px;
+    color: black;
+    border-radius: 20px;
+    background: linear-gradient(#00a8f3, #00a8f3);
+    border: 1px solid #00a8f3;
+}
+.rounded-button2{
+    padding: 20px 40px;
+    position: relative;
+    top: -600px;
+    color: black;
+    border-radius: 20px;
+    background: linear-gradient(#fa7e1e, #d62976);
+    border: 1px solid #1778F2;
+}
+#me{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    top: -480px;
+    left: 503px;
+}
+#wala{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -580px;
+    left: -50px;
+    width: 50px;
+}
+.about{
+    text-align: center;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -220px;
+    left: 800px;
+}
+.hobbies{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -340px;
+    left: 1025px;
+}
+.interest{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -460px;
+    left: 1250px;
+}
+.sections p{
+    color: white;
+    font-size: 20px;
+}
+.tanan{
+    position: relative;
+    top: -410px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}

@@ -1,0 +1,124 @@
+body{
+    background: linear-gradient(#09151f, #081b29, #033349, #015d83, #0099d7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.box{
+    color:black;
+    width: 1600px;
+    height: 800px;
+    background-color: #081b29;
+    border-radius: 20px; 
+    border: 2px solid;
+    position: relative;
+    top: -330px;
+    left: 150px;
+    z-index: -1;
+    padding: 20px;
+    
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    
+}
+.box2{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.box2 p{
+    font-size: 20px;
+    color: white;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+.circle{
+    height: 80%;
+    width: 80%;
+   
+}
+.circle img{
+    border-radius: 100%;
+    object-fit: contain;
+    width: 60%;
+}
+.lang{
+    width: 10%;
+    height: 80%;
+}
+.lang img{
+    width: 80%
+}
+.lang2{
+    width: 10%;
+    height: 80%;
+
+}
+.lang2 img{
+    width: 80%
+}
+.box3{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.box3 p{
+    font-size: 20px;
+    color: white;
+}
+
+.ed p{
+    font-size: 25px;
+    color: white;
+    padding: 20px 20px;
+}
+.about{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top:-30px;
+    left: 1125px;
+    color: white;
+    font-size: 20px;
+}
+.hobbies{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -150px;
+    left: 1325px;
+    color: white;
+    font-size: 20px;
+}
+.interest{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -270px;
+    left: 1550px;
+    color: white;
+    font-size: 20px;
+}
+.final{
+    position: relative;
+    top: 30px;
+    left: 250px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}

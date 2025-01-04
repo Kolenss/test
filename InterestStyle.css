@@ -1,0 +1,145 @@
+body{
+    background: linear-gradient(#09151f, #081b29, #033349, #015d83, #0099d7);
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+    position: relative;
+    width: 1600px;
+    height: 800px;
+    border: 2px solid;
+    top: -120px;
+    left: 150px;
+    border-radius: 20px;
+    background-color: #081b29;
+    padding: 20px;
+}
+.all p{
+    color: White;
+}
+.kolens{
+    position: relative;
+    top: 30px;
+    left: 250px;
+    font-size: 25px;
+    width: 50px;
+}
+.about{
+    font-size: 20px;
+    position: relative;
+    left: 1127px;
+    top: -27px;
+}
+.hobbies{
+    font-size: 20px;
+    position: relative;
+    left: 1327px;
+    top: -71px;
+}
+.interest{
+    font-size: 20px;
+    position: relative;
+    left: 1550px;
+    top: -113px;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    color: white;
+    position: relative;
+    border: 2px solid;
+    display: flex;
+    width: 1587px;
+    height: 253px;
+    top: 430px;
+}
+#beach{
+    height: 250px;
+}
+#natgeo{
+    height: 249px;
+}
+#friend{
+    height: 250px;
+}
+#cartoon{
+    height: 250px;
+}
+.box2{
+    border: 2px solid;
+    color: white;
+}
+.box2:hover img{
+    transform: scale(1.3);
+}
+.box3{
+    border: 2px solid;
+    color: white;
+}
+.box3:hover img{
+    transform: scale(1.3);
+}
+.box4{
+    border: 2px solid;
+    color: white;
+}
+.box4:hover img{
+    transform: scale(1.3);
+}
+.box5{
+    border: 2px solid;
+    color: white;
+}
+.box5:hover img{
+    transform: scale(1.3);
+}
+.circle img{
+    position: relative;
+    left: 748px;
+    top: -210px;
+    border-radius: 100%;
+    height: 355px;
+    width: 355px;
+}
+.circle:hover img{
+    transform: scale(1.3);
+    opacity: 0;
+}
+.circle:hover video{
+    transform: scale(1.3);
+}
+.wordbox{
+    color: white;
+    position: relative;
+    top: -400px;
+}
+.wordbox p{
+    font-size: 100px;
+    font-family: "Zeyada", cursive;
+    position: relative;
+    top: -180px;
+    left: 180px;
+}
+.wordbox2{
+    color: white;
+    position: relative;
+    top: -400px;
+}
+.wordbox2 p{
+    color: white;
+    position: relative;
+    top: -250px;
+    left: 150px;
+    font-size: 30px;
+}
+#masa{
+    width: 348px;
+    height: 348px;
+    border-radius: 100%;
+    object-fit: fill;
+    position: relative;
+    left: 1100px;
+    top: -210px;
+}

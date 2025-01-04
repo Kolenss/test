@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTU Danao Campus Entrance System</title>
+  <link rel="stylesheet" href="/css/entrance.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li class="home">Home</a></li>
+        <li class="features">Features</a></li>
+        <li class="gallery">Gallery</a></li>
+        <li class="contact">Contact</a></li>
+        <li class="login" >Log in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home1 hidden">
+      <h1>Welcome to CTU Danao Campus</h1>
+      <p>At CTU Danao Campus, we pride ourselves on innovation and security. Our state-of-the-art entrance system ensures a seamless, efficient, and safe experience for students, staff, and visitors. From automated ID scanning to streamlined record-keeping, our campus embraces technology to enhance your journey every step of the way.</p>
+      <img src="/pictures/entrance1.jpg" alt="">
+    </section>
+
+    <section id="features" class="features1 hidden">
+      <h1>Features of the Entrance System</h2>
+      <ul>
+        <li>Fast and efficient ID barcode scanning</li>
+        <li>Automated login and logout records</li>
+        <li>Enhanced campus security</li>
+        <li>Reduces manual errors</li>
+      </ul>
+      <img src="/pictures/scan.jpg" alt="">
+    </section>
+
+    <section id="gallery" class="gallery1 hidden">
+      <h1>Gallery</h2>
+      <p><strong>Picture 1:</strong> A student scanning their ID at the entrance</p>
+      <p><strong>Picture 2:</strong> The modernized entrance gate</p>
+      <img src="/pictures/gallery.jpg" alt="">
+    </section>
+
+    <section id="contact" class="contact1 hidden">
+      <h1>Contact Us</h2>
+      <p>For more information, visit the CTU Danao Campus office or contact us via email.</p>
+    </section>
+  </main>
+
+  <div id="login-popup" class="popup hidden">
+    <div class="popup-content">
+      <span class="close" onclick="toggleLoginPopup()">&times;</span>
+      <h2>Log in</h2>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit">Log in</button>
+      </form>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>Cebu Technological University Danao Campus</p>
+  </footer>
+
+  
+
+  <script src="/js/entrance.js"></script>
+</body>
+</html>

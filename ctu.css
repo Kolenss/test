@@ -1,0 +1,315 @@
+body{
+    width: 99%;
+    height: 200vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-container{
+    width: 99%;
+    height: 90%;
+    display: flex; 
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    height: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 20px;
+}
+.navigation2{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+nav p {
+    margin: 20px 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.login p{
+    margin: 20px 20px;
+    cursor: pointer;
+}
+.navigation{
+    width: 100%;
+    height: 5 ;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.logo-image{
+    height: 100%;
+    width: 40%;
+}
+.school-name{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.school-name p{
+    font-size: 25px;
+}
+.school-name p:hover {
+    cursor: pointer;
+}
+.places{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.places-container{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial;
+    border-radius: 15px;
+    background-color: #db362d;
+    color: white;
+}
+.places-container:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    
+}
+.cclogo{
+    width: 10%;
+    height: 60%;
+    
+}
+.cclogo img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.pictures{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    height: 100%;
+    width: 50%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: -5px 3px 5px 4px rgba(0,0,0,0.11);
+    border-radius: 20px;
+}
+.slider {
+    display: flex;
+    width: 400%;
+    background-image: url("/pictures/CTU_new_logo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+}
+.pictures2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.content2{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.slider2 {
+    display: flex;
+    width: 300%;
+    animation: slide2 12s infinite;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: none;
+}
+.slider2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.text{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+}
+.text p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom-text p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+.bottom-text p{
+    width: 90%;
+}
+footer{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    font-size: 30px;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.gate{
+    height: 35%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.gatetext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.gatetext p{
+    width: 90%;
+    font-size: 20px;
+}
+.gatetext h1{
+    width: 90%;
+}
+.gatepic{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.gatepic img{
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: -5px 3px 5px 4px rgba(0,0,0,0.11);
+
+    
+}
+footer i{
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes slide{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+
+}
+@keyframes slide2{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-100%);}
+    40%{transform: translateX(-100%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-200%);}
+    70%{transform: translateX(-200%);}
+    80%{transform: translateX(-200%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+
+}
+
+
